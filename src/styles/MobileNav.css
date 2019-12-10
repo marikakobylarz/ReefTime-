@@ -1,0 +1,28 @@
+@media only screen and (max-width: 700x){
+
+.nav__mobile {
+    display: block;
+    position: absolute;
+  
+}}
+.mobile__listItem {
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+
+}
+.active {
+    color:orange;
+
+}
+
+
+
+@media only screen and (min-width: 700px) {
+    .nav__mobile {
+        display: none;
+    }
+    .menu_box{ display: none;}
+}
+

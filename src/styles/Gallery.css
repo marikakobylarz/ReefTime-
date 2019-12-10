@@ -1,0 +1,20 @@
+.photos div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: center;
+    background-color: #222;
+margin:0 auto;
+}
+
+.photos img{padding:20px;
+}
+
+@media only screen and (max-width: 769px){
+    .photos img{padding:20px;
+        width:300px;
+        height: 300px;
+    }
+
+}
